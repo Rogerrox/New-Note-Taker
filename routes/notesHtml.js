@@ -49,16 +49,15 @@ notes.post('/', (req, res) => {
 
   if (req.body) {
     const newNote = {
-      username,
-      tip,
-      topic,
-      tip_id: uuidv4(),
+      title,
+      text,
+      id: uuidv4(),
     };
 
-    readAndAppend(newTip, './db/tips.json');
-    res.json(`Tip added successfully 🚀`);
+    readAndAppend(newNote, './db/db.json');
+    res.json(`Note added successfully 🚀`);
   } else {
-    res.error('Error in adding tip');
+    res.error('Error in adding Note');
   }
 });
 
