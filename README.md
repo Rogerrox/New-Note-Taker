@@ -25,3 +25,7 @@ many titles as you want and they will show on the left side of your page. The ti
 ## Links:
 Github site: https://github.com/Rogerrox/New-Note-Taker
 Heroku Web site: https://mighty-earth-09337.herokuapp.com 
+
+## Tutor Help:
+Alexis San Javier 
+Elizabeth Dieterich Ask BCS
